@@ -1,9 +1,9 @@
 * {
-  box-sizing: boder-box;
+  box-sizing: border-box;
 }
 :root {
   --font-head1: "Montserrat";
-  --primary-color:#416d5a
+  --primary-color: #416d5a;
 }
 html {
   font-size: 62.5%;
@@ -13,7 +13,7 @@ body {
   font-family: "Irish Grover";
 }
 .logo {
-  max-width: 120px;
+  max-width: 130px;
   height: auto;
 }
 /* ---------------commmon------------------ */
@@ -28,7 +28,6 @@ a {
 }
 /* ---------------header------------------- */
 .header {
-  background: #e2d9aa;
   background-image: url("https://cdn.architextures.org/textures/23/2/oak-veneermdf-none-rz7xim-1200.jpg"); /* đường dẫn ảnh */
   background-size: cover; /* ảnh phủ toàn bộ */
   background-position: center; /* căn giữa ảnh */
@@ -52,7 +51,7 @@ a {
 }
 .nav a {
   color: var(--primary-color);
-  font-size: 1.6rem;
+  font-size: 2rem;
 
   padding: 8px 21px;
 }
@@ -78,17 +77,16 @@ a {
 }
 /* ----------phan hero-------- */
 .hero .img {
-  width: 550px;
+  width: 500px;
   height: 500px;
   object-fit: cover;
   object-position: left;
-   border-radius: 40px 40px;
+  border-radius: 40px 40px;
 }
 .play-button {
   width: 50px;
   height: 50px;
   object-fit: cover;
-  
 }
 .hero {
   padding: 56px;
@@ -113,9 +111,9 @@ a {
   padding-top: 64px;
 }
 .hero .head1 {
-  color:var(--primary-color);
+  color: var(--primary-color);
   font-family: var(--font-head1);
-  font-size: 4rem;
+  font-size: 3.5rem;
   font-weight: 700;
   line-height: 1.3;
 }
@@ -152,33 +150,36 @@ a {
   font-size: 4rem;
 }
 /* ---------phan giua----------- */
-.popular{
+.our-popular-courses {
+  font-size: 2rem;
+}
+.popular {
   font-weight: 600;
   font-size: 2rem;
   margin-top: 50px;
 }
-.popular .course-list{
+.popular .course-list {
   display: flex;
   gap: 30px;
   margin-top: 55px;
 }
-.popular .course-item:hover{
+.popular .course-item:hover {
   border-radius: 12px;
   background-color: #adbb83;
-  box-shadow: 0px 18px 36px 0px rgba(0,0,0,0.05);
+  box-shadow: 0px 18px 36px 0px rgba(0, 0, 0, 0.05);
 }
-.popular .course-item .thumb{
+.popular .course-item .thumb {
   border-radius: 30px 30px;
   height: 300px;
   object-fit: cover;
   width: 100%;
 }
-.popular .course-item .info{
+.popular .course-item .info {
   padding: 16px 22px 22px;
 }
 .popular .course-item .foot,
 .popular .course-item .rating,
-.popular .course-item .head{
+.popular .course-item .head {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -189,28 +190,27 @@ a {
   font-weight: 600;
   line-height: 1.7;
 }
-.popular .rating .value{
-margin-left: 6px;
-line-height: 1.75;
-
+.popular .rating .value {
+  margin-left: 6px;
+  line-height: 1.75;
 }
-.star{
-  height: 20px;;
+.star {
+  height: 20px;
 }
 
-.popular .course-item .desc{
+.popular .course-item .desc {
   margin-top: 6px;
   font-size: 1.4rem;
   line-height: 1.8;
-  font-family:Montserrat ;
+  font-family: Montserrat;
 }
-.popular .course-item .foot{
+.popular .course-item .foot {
   margin-top: 12px;
 }
 
-.popular .course-item .button-book-now{
-border: none;
+.popular .course-item .button-book-now {
+  border: none;
 }
-.popular .course-item .button-book-now:hover{
+.popular .course-item .button-book-now:hover {
   background: var(--primary-color);
 }
