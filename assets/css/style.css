@@ -29,7 +29,7 @@ a {
   background-size: cover; /* ảnh phủ toàn bộ */
   background-position: center; /* căn giữa ảnh */
   background-repeat: no-repeat; /* không lặp ảnh */
-  height: 300px;
+  height: 100px;
 }
 .header.fixed {
   position: sticky;
@@ -69,3 +69,31 @@ a {
 .header .nutbam-signup {
   min-width: 80px;
 }
+/* ----------phan hero-------- */
+.hero .img {
+  width: 450px;
+  height: 400px;
+  object-fit: cover;
+}
+.play-button {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+}
+.hero {
+  padding: 56px;
+  background-color: #ffffff;
+}
+.watch-video {
+  background-color: #e3caac;
+}
+.hero .hero-left-right {
+  display: flex;
+}
+.hero .hero-left {
+  width: 50%;
+}
+.hero .hero-right {
+  width: 50%;
+}
+/* ---------hero right------- */
