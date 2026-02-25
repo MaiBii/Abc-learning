@@ -10,7 +10,7 @@ html {
 }
 body {
   font-size: 1.6rem;
-  font-family: "Irish Grover";
+  font-family: "Montserrat";
 }
 .logo {
   max-width: 130px;
@@ -79,7 +79,7 @@ a {
 /* ----------phan hero-------- */
 .hero .img {
   width: 500px;
-  height: 500px;
+  height: 580px;
   object-fit: cover;
   object-position: left;
   border-radius: 40px 40px;
@@ -100,10 +100,10 @@ a {
   display: flex;
 }
 .hero .hero-left {
-  width: 50%;
+  width: 40%;
 }
 .hero .hero-right {
-  width: 50%;
+  width: 60%;
 }
 /* ---------hero right------- */
 .hero .hero-right {
@@ -114,10 +114,12 @@ a {
 .hero .head1 {
   color: var(--primary-color);
   font-family: var(--font-head1);
-  font-size: 3.5rem;
-  font-weight: 700;
+  font-size: 4rem;
+  font-weight: 600;
   line-height: 1.3;
 }
+
+
 .hero .head2 {
   margin-top: 22px;
   color: #000;
@@ -224,7 +226,7 @@ a {
 .feedback {
   margin-top: 80px;
   padding: 60px 0px;
-  background: #c0e1b0;
+  background: #cadbc1;
 }
 .feedback-item {
   display: flex;
@@ -237,7 +239,7 @@ a {
 }
 .feedback-item .info .member-name {
   margin-top: 18px;
-  color: #ffffff;
+  color:var(--primary-color);
   font-family: serif;
   font-size: 3rem;
   font-weight: 700;
@@ -254,20 +256,64 @@ a {
   display: flex;
   margin-top: 28px;
 }
-.feedback-item .dot{
-  height: 6px;width: 6px;border-radius: 50%;
+.feedback-item .dot {
+  height: 6px;
+  width: 6px;
+  border-radius: 50%;
   background: #416d5a;
 }
-.feedback-item .dot.active{
+.feedback-item .dot.active {
   background-color: rgb(255, 255, 255);
 }
-.feedback-item .content{
+.feedback-item .content {
   width: 66%;
   margin-left: auto;
 }
-.feedback-item .open-quotes{
+.feedback-item .open-quotes {
   font-size: 5rem;
 }
-.quote{
+.quote {
   font-size: 2rem;
+}
+/* --------------------footer----------- */
+footer {
+ background-image: url(https://cdn.architextures.org/textures/23/2/oak-veneermdf-none-rz7xim-1200.jpg);
+
+}
+.footer .row{
+  display: flex;
+  gap: 60px;
+}
+}
+.footer .row .column {
+  width: 20%;
+}
+.footer .row .column:first-child {
+  width: 30%;
+}
+.footer .desc {
+  margin-top: 18px;
+  max-width: 260px;
+  color: #ffffff;
+  font-size: 1.8rem;
+  line-height: 1.8;
+}
+.footer .socials {
+  display: flex;
+  gap: 18px;
+  margin-top: 18px;
+}
+.footer .tittle {
+  border-bottom: 1px solid var(--primary-color);
+  display: inline-block;
+  padding-bottom: 14px;
+  color: #ffffff;
+  font-size: 1.8rem;
+  font-weight: 600;
+  line-height: 1.8;
+}
+.footer .list a {
+  color: #ffffff;
+  font-size: 2rem;
+  line-height: 1.8;
 }
