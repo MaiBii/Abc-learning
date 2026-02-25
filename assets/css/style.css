@@ -26,9 +26,10 @@ a {
   margin-left: auto;
   margin-right: auto;
 }
+
 /* ---------------header------------------- */
 .header {
-  background-image: url("https://cdn.architextures.org/textures/23/2/oak-veneermdf-none-rz7xim-1200.jpg"); /* đường dẫn ảnh */
+  background-image: url(https://cdn.architextures.org/textures/23/2/oak-veneermdf-none-rz7xim-1200.jpg);
   background-size: cover; /* ảnh phủ toàn bộ */
   background-position: center; /* căn giữa ảnh */
   background-repeat: no-repeat; /* không lặp ảnh */
@@ -163,6 +164,11 @@ a {
   gap: 30px;
   margin-top: 55px;
 }
+.popular .course-item {
+  flex: 1;
+  border-radius: 12px;
+  border: 1px solid #ffffff;
+}
 .popular .course-item:hover {
   border-radius: 12px;
   background-color: #adbb83;
@@ -213,4 +219,55 @@ a {
 }
 .popular .course-item .button-book-now:hover {
   background: var(--primary-color);
+}
+/* --------feedback-------- */
+.feedback {
+  margin-top: 80px;
+  padding: 60px 0px;
+  background: #c0e1b0;
+}
+.feedback-item {
+  display: flex;
+}
+.feedback-item .avatar {
+  width: 172px;
+  height: 172px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.feedback-item .info .member-name {
+  margin-top: 18px;
+  color: #ffffff;
+  font-family: serif;
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 1.42;
+}
+.feedback-item .info .desc {
+  margin-top: 4px;
+  color: #416d5a;
+  font-size: 2rem;
+  line-height: 1.8;
+}
+.feedback-item .dots {
+  gap: 6px;
+  display: flex;
+  margin-top: 28px;
+}
+.feedback-item .dot{
+  height: 6px;width: 6px;border-radius: 50%;
+  background: #416d5a;
+}
+.feedback-item .dot.active{
+  background-color: rgb(255, 255, 255);
+}
+.feedback-item .content{
+  width: 66%;
+  margin-left: auto;
+}
+.feedback-item .open-quotes{
+  font-size: 5rem;
+}
+.quote{
+  font-size: 2rem;
 }
