@@ -78,7 +78,7 @@ a {
 }
 /* ----------phan hero-------- */
 .hero .img {
-  width: 500px;
+  width: 100%;
   height: 580px;
   object-fit: cover;
   object-position: left;
@@ -98,6 +98,7 @@ a {
 }
 .hero .hero-left-right {
   display: flex;
+  flex-wrap: wrap;
 }
 .hero .hero-left {
   width: 40%;
@@ -118,7 +119,6 @@ a {
   font-weight: 600;
   line-height: 1.3;
 }
-
 
 .hero .head2 {
   margin-top: 22px;
@@ -239,7 +239,7 @@ a {
 }
 .feedback-item .info .member-name {
   margin-top: 18px;
-  color:var(--primary-color);
+  color: var(--primary-color);
   font-family: serif;
   font-size: 3rem;
   font-weight: 700;
@@ -277,14 +277,13 @@ a {
 }
 /* --------------------footer----------- */
 footer {
- background-image: url(https://cdn.architextures.org/textures/23/2/oak-veneermdf-none-rz7xim-1200.jpg);
-
+  background-image: url(https://cdn.architextures.org/textures/23/2/oak-veneermdf-none-rz7xim-1200.jpg);
 }
-.footer .row{
+.footer .row {
   display: flex;
   gap: 60px;
 }
-}
+
 .footer .row .column {
   width: 20%;
 }
