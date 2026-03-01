@@ -8,7 +8,7 @@ This project is a front‑end landing page for an online English‑learning plat
 
 ## 2. Features 主な機能
 
-- Hero section with call‑to‑action / CTA 付きヒーローセクション
+- Hero section with call‑to‑action /CTA 付きヒーローセクション
 - Course list with hover effects / ホバー効果付きコース一覧
 - Student feedback section / 受講者レビュー表示
 - Sticky header navigation / 固定ヘッダー・ナビゲーション
